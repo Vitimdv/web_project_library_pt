@@ -302,7 +302,7 @@
 }
 
 .membership__steps {
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
@@ -312,6 +312,7 @@
 
 .step {
   max-width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
